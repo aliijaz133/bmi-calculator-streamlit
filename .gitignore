@@ -1,0 +1,20 @@
+# Local Python environments
+/myenv/
+/.venv/
+/venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Other files in this workspace, not part of the BMI app
+/main.py
+/data.json
+/important.cmd
+/pydantic_using.py
